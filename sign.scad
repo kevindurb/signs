@@ -3,13 +3,11 @@ font = "Highway Gothic Narrow:style=Regular";
 height = 75;
 width = 130;
 thickness = 8;
-kerning = 40;
 
 $fn = 100;
 
 letter_thickness = thickness / 2;
 plate_thickness = thickness / 2;
-half_text_width = (len(letters) * kerning) / 2;
 
 color("#202020")
 linear_extrude(letter_thickness)
